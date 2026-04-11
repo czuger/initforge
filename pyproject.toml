@@ -1,15 +1,10 @@
 [project]
 name = "initforge"
-version = "0.1.0"
+version = "0.1.1"
 description = "Generic modular project initialization for Flask, MongoDB, Twitter and OpenAI"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-    "tweepy",
-    "mongoengine",
-    "openai",
-    "flask",
-]
+dependencies = []
 
 [project.optional-dependencies]
 dev = ["pytest"]

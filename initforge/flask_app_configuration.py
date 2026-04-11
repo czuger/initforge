@@ -1,6 +1,6 @@
 import logging
-import secrets
 import os
+import secrets
 
 from flask import Flask
 

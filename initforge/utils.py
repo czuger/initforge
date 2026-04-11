@@ -25,7 +25,9 @@ def find_project_root() -> str:
     if _project_root is not None:
         return _project_root
 
-    current = os.path.dirname(os.path.abspath(__file__))
+    # Start from the current working directory (the project using this library)
+    # rather than __file__ which points to the library's own location
+    current = os.path.abspath(os.getcwd())
 
     while current != os.path.dirname(current):
         if any(os.path.exists(os.path.join(current, marker)) for marker in ROOT_MARKERS):
