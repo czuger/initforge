@@ -14,6 +14,11 @@
     "open_ai": {
         "openai_key": "YOUR_OPENAI_KEY"
     },
+    "jira": {
+        "host": "YOUR_JIRA_HOST",
+        "email": "YOUR_JIRA_EMAIL",
+        "api_token": "YOUR_JIRA_API_TOKEN"
+    },
     "discord": {
         "omin_auth": {
             "client_id": "YOUR_DISCORD_CLIENT_ID",
