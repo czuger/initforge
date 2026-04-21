@@ -13,5 +13,12 @@
     },
     "open_ai": {
         "openai_key": "YOUR_OPENAI_KEY"
+    },
+    "discord": {
+        "omin_auth": {
+            "client_id": "YOUR_DISCORD_CLIENT_ID",
+            "client_secret": "YOUR_DISCORD_CLIENT_SECRET",
+            "redirect_uri": "YOUR_DISCORD_REDIRECT_URI"
+        }
     }
 }
